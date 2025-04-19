@@ -6,49 +6,56 @@
          <title>WORKSHOP</title>
 
          <style>
-            .item{
+            .items{
                 display: flex;
-                justify-content: center;
-                text-align:center;
+                justify-content: center;               
                 gap: 40px;
             }
 
-          .item img{
+          .items img{
             height:200px;
             width:200px;
             border-radius:20px;
           }
-          .item>div{
+          .items>div{
             /*border:2px solid black;*/
             border-radius:10px;
-            Padding:20px;
+            text-align:center;
+            Padding:15px;
             width:250px;
             height:350px;
             box-shadow:2px 5px 15px rgba(0,0,0,0.3);
           }
-            .item button{
-                height:40px;
+            .items button{
+                background-color:#ffffff;
+                height:35px;
                 border:2px solid black;
                 border-radius:10px;
             }
-            .container{
-                text-align:center;
-            }
+            
+            
             h1{
                 text-decoration:underline;
+                text-align:center;
                 color:green;
                 margin-bottom:60px;
+            }
+
+            .items p{
+                font-style:italic;
+                
+
             }
             
             
          </style>
     </head>
     <body>
-        <div class="container">
+        <div class="categories">
             <div>
             <h1>Our Best Categories</h1>
             </div>
-            <div class="item">
+            <div class="items">
                 <div>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR_E26Nr8k31EH12-mEfW8gPdUJOgO5urfsLbb8lmjkz_O655z&s" alt="vegetables">
                     <h3>VEGETABLES</h3>
@@ -69,7 +76,7 @@
                     <button>ORDER NOW</button>
                 </div>
               
-            </div>
+            
         </div>   
     </body>
     </html>
